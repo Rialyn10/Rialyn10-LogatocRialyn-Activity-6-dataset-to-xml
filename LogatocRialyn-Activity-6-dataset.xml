@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE airport-codes [
+    <!ELEMENT airport-codes (receiver)>
+   <!ELEMENT reciever (type, name, elevation_ft, continent, iso_country, iso_region, municipality, gps_code, local_code)>
+
+   <!ELEMENT receiver (#PCDATA)>
+   <!ELEMENT  ident (#PCDATA)>
+   <!ELEMENT type (#PCDATA)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT elevation_ft (#PCDATA)>
+   <!ELEMENT continent (#PCDATA)>
+   <!ELEMENT iso_country (#PCDATA)>
+   <!ELEMENT  iso_region (#PCDATA)>
+   <!ELEMENT municipality (#PCDATA)>
+   <!ELEMENT gps_code (#PCDATA)>
+   <!ELEMENT local_code (#PCDATA)>
+
+   <!ATTLIST reciever ident CDATA #REQUIRED>
+
+]>
+
+<airport_codes>
+   <airport ident="00A">
+   <type> heliport </type>
+   <name> Total Rf Heliport </name>
+   <elevation-ft> 11 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-PA </iso_region>
+   <municipality> Bensalem </municipality>
+   <gps_code> 00A </gps_code>
+   <local_code> 00A </local_code>
+</airport>
+
+   <airport ident="00AA">
+   <type> small-airport </type>
+   <name> Aero B Ranch Airport </name>
+   <elevation-ft> 3435 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-KS </iso_region>
+   <municipality> Leoti </municipality>
+   <gps_code> 00AA </gps_code>
+   <local_code> 00AA</local_code>
+</airport>
+
+ <airport ident="00AK">
+   <type> small-airport </type>
+   <name> Lowell Field </name>
+   <elevation-ft> 450 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-AK </iso_region>
+   <municipality> Anchor Point </municipality>
+   <gps_code> 00AK </gps_code>
+   <local_code> 00AK </local_code>
+</airport>
+
+ <airport ident="00AL">
+   <type> small-airport </type>
+   <name> Epps Airpark </name>
+   <elevation-ft> 280 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-AL </iso_region>
+   <municipality> Harvest </municipality>
+   <gps_code> 00AL </gps_code>
+   <local_code> 00AL </local_code>
+</airport>
+
+ <airport ident="00AR">
+   <type> closed </type>
+   <name> Newport Hospital and Clinic Heliport </name>
+   <elevation-ft> 237 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-AR </iso_region>
+   <municipality> Newport </municipality>
+   <gps_code> 00AR </gps_code>
+   <local_code> 00AR </local_code>
+</airport>
+
+ <airport ident="00AS">
+   <type> small-airport </type>
+   <name> Fulton Airport </name>
+   <elevation-ft> 1100 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-OK </iso_region>
+   <municipality> Alex </municipality>
+   <gps_code> 00AS </gps_code>
+   <local_code> 00AS </local_code>
+</airport>
+
+ <airport ident="00AZ">
+   <type> small-airport </type>
+   <name> Cordes Airport </name>
+   <elevation-ft> 3810 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-AZ </iso_region>
+   <municipality> Cordes </municipality>
+   <gps_code> 00AZ </gps_code>
+   <local_code> 00AZ </local_code>
+</airport>
+
+ <airport ident="00CA">
+   <type> small-airport </type>
+   <name> Goldstone/Gts/Airport </name>
+   <elevation-ft> 3038 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-CA </iso_region>
+   <municipality> Barstow </municipality>
+   <gps_code> 00CA </gps_code>
+   <local_code> 00CA</local_code>
+</airport>
+
+ <airport ident="00CL">
+   <type> small-airport </type>
+   <name> Williams Ag /Airport </name>
+   <elevation-ft> 87 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-CA </iso_region>
+   <municipality> Biggs </municipality>
+   <gps_code> 00CL </gps_code>
+   <local_code> 00CL </local_code>
+</airport>
+
+ <airport ident="00CN">
+   <type> hellport </type>
+   <name> Kitchen Creek Helibase Heliport </name>
+   <elevation-ft> 3350 </elevation-ft>
+   <continent> NA </continent>
+   <iso_country> US </iso_country>
+   <iso_region> US-CA </iso_region>
+   <municipality> Pine Valley </municipality>
+   <gps_code> 00CN </gps_code>
+   <local_code> 00CN </local_code>
+</airport>
+
+</airport_codes>
